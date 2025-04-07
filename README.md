@@ -2,6 +2,16 @@
 
 A collection of custom instructions and prompt templates for Cursor, the AI-powered code editor.
 
+## Table of Contents
+- [Overview](#overview)
+- [Contents](#contents)
+  - [Rule Creator](#rule-creator-rule-creatormd)
+  - [Cline Memory Bank](#cline-memory-bank-cline-memory-bankmd)
+  - [PR Reviewer](#pr-reviewer-pr-reviewermd)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Overview
 
 This repository contains specialized instruction sets that enhance Cursor's AI capabilities for specific use cases. These instructions can be copied into Cursor's custom instructions to enable specialized behaviors.
@@ -54,6 +64,34 @@ A documentation-first approach for AI development with persistent memory.
 
 **Original Source:**
 - [Cline Memory Bank Documentation](https://docs.cline.bot/improving-your-prompting-skills/cline-memory-bank)
+
+### PR Reviewer (`pr-reviewer.md`)
+
+A structured approach for comprehensive pull request reviews with confidence ratings.
+
+**Purpose:**
+- Provides a systematic process for reviewing pull requests
+- Incorporates confidence ratings (1-10) for each comment
+- Includes reasoning behind feedback to improve clarity
+- Assigns a final rating for the overall PR quality
+
+**Review Process:**
+0. Use available tools (Sequential Thinking MCP, git commands) to gather PR information
+1. Understand the context and goals of the PR
+2. Consider alternative approaches with pros and cons
+3. Identify bugs, edge cases, and code smells
+4. Conduct focused line-by-line review
+5. Evaluate readability and maintainability
+6. Verify testing coverage
+7. Provide constructive feedback
+8. Perform context-specific checks (performance, security, UI)
+9. Assign a final PR rating (1-10)
+
+**Usage:**
+- Copy into Cursor custom instructions
+- Add the PR (Pull request, diff or commit) as context for the AI
+- Request: "Review the PR" or "Review the PR against <main-branch-name> branch"
+- Result: Structured review with confidence ratings and actionable feedback
 
 ## How to Use
 

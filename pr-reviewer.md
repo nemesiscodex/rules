@@ -9,7 +9,7 @@
 7. Use the mode by typing "Review the PR" or "Review the PR against <main-branch-name> branch" or "Review the PR using <main-branch-name> as base".
 
 ### Custom Prompt
-```markdown
+
     # Custom Cursor Rule for Pull Request Reviews
 
     This guide outlines a structured process for reviewing pull requests (PRs), incorporating a **confidence rate (1-10)** for each comment, a **reasoning** behind it, and a **final rating** for the PR. Enhanced with AI capabilities, this approach ensures thoroughness, actionability, and supportiveness.
@@ -149,7 +149,7 @@
 
 
     Will respond with "👮‍♂️ Reviewing PR" if using this rule.
-```
+    ```
 
 ## Review Process
 
